@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Brincos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideOptions">
+    <ion-slide>
+      <ion-card>
+        <ion-img
+          src="https://images.pexels.com/photos/10983783/pexels-photo-10983783.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ></ion-img>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-img
+          src="https://images.pexels.com/photos/12194348/pexels-photo-12194348.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ></ion-img>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-img
+          src="https://images.pexels.com/photos/9332189/pexels-photo-9332189.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ></ion-img>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-button expand="full">Comprar</ion-button>
+
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <ion-img
+          src="https://images.pexels.com/photos/10983783/pexels-photo-10983783.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ></ion-img>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Brinco 1</h2>
+        <p>R$120,00</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <ion-img
+          src="https://images.pexels.com/photos/12194348/pexels-photo-12194348.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ></ion-img>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Brinco 2</h2>
+        <p>R$200,00</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <ion-img
+          src="https://images.pexels.com/photos/9332189/pexels-photo-9332189.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ></ion-img>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Brinco 3</h2>
+        <p>R$150,00</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-input placeholder="Deixe aqui seu comentário"></ion-input>
+</ion-content>
